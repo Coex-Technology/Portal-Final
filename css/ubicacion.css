@@ -1,0 +1,44 @@
+html, body{
+    overflow: hidden;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+.fixed-button {
+    position: fixed;
+    top: 20px;
+    right: 16px;
+}
+
+/* Mantener el header estatico */
+
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.sticky-header h1 {
+    margin: 0;
+}
+
+.sticky-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sticky-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.sticky-header nav ul li:last-child {
+    margin-right: 0;
+}
